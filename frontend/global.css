@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #19162B;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header div img {
+    margin-left: 20px;
+
+    padding: 10px;
+
+    height: 50px;
+    width: 50px;
+}
+
+.header div img:hover {
+    cursor: pointer;
+}
+
+.header div h3 {
+    color: white; 
+}
+
+body{
+    background-color: #221F32;
+}
+
+h2{
+    text-align: center;
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+p {
+    color:white;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+
+    margin: 10px 0 15px 0;
+    text-align: center;
+
+    align-content: center;
+    background-color: #19162B;
+    border-color: #19162B;
+
+    color: #898181;
+    font-size: 14px;
+
+    border: 0;
+    
+}
+datalist{
+    width: 100%;
+    height: 40px;
+
+    margin: 10px 0 15px 0;
+    text-align: center;
+
+    align-content: center;
+    background-color: #19162B;
+    border-color: #19162B;
+
+    color: #898181;
+    font-size: 14px;
+
+    border: 0;
+    
+}
+
+select{
+    width: 50%;
+    height: 40px;
+
+    min-width: 100%;
+    max-width: 100%;
+    
+    margin: 10px 0 15px 0;
+
+    background-color: #19162B;
+    border: 0;
+
+    color: #898181;
+    font-size: 14px;
+}
+
+button {
+    margin: 0 auto;
+    display: flex;
+
+    margin-top: 25px;
+
+    cursor: pointer;
+
+    width: 60%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    background-color: #0537B8;
+
+    border: 0;
+}
+
+
+button:hover{
+    filter: brightness(90%); 
+}
+
+img{
+    cursor: pointer;
+}
+
+.centralizar {
+    width: 1200px;
+    max-width: 100%;
+    min-width: 80%;
+    margin: 0 auto;
+}

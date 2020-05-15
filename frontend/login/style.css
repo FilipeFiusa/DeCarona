@@ -1,0 +1,54 @@
+.all-container{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+
+    background-size: cover;
+    background-image: url('../images/Yggdrasil_City.png');
+
+}
+
+.header{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.header img{
+    height: 60px;
+}
+
+.data-container {
+    margin-top: 30px;
+    padding: 3%;
+    width: 400px;
+    height: 400px;
+
+    align-content: center;
+
+    background-color: #221F32;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+}
+
+.back-link h5{
+    text-align: right;
+    font-size: 10;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    margin-top: 10px;
+
+    color: rgb(12, 109, 201);
+}
+
+.back-link h5:hover{
+    opacity: 0.8;
+    text-decoration: none;
+}

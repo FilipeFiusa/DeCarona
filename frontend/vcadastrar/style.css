@@ -1,0 +1,63 @@
+.content-container{
+    background-color: #19162B;
+    
+    margin: 20px auto;
+
+    padding: 20px;
+
+    width: 98%;
+    
+
+}
+
+.partedecima {
+    display:flex;
+
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partedecima button{
+    padding: 0;
+    margin: 0;
+
+    width: 20%;
+    height: 45px;
+}
+
+.partedecima h3{
+    color: white;
+}
+
+.cadastrar-container{
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 10px;
+    margin-top: 15px;
+    padding: 30px 0;
+
+    background-color: #221F32;
+
+    width: 98%;
+}
+
+.dados-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 0 2%;
+
+    width: 98%;
+}
+
+option {
+    width: 100%;
+}
+
+.cadastrar-container button{
+    width: 20%;
+}

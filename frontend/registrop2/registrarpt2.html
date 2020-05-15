@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../global.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Registrar</title>
+</head>
+<body>
+    <div class="all-container">
+        <header class="header">
+            <img src="../images/Logo DeCarona 200x200 Branco.png">
+        </header>
+
+        <div class="registro-container">
+           
+            <div class="data-container">
+                <h2>Criação do Passe Caronista</h2>
+                
+                <p>CPF: </p>
+                <input id="cpf" class="login-input" placeholder="Digite Seu CPF">
+                <p>RG: </p>
+                <input id="rg" class="login-input" placeholder="Digite Seu RG">
+                <p>Nome: </p>
+                <input id="nome" class="login-input" placeholder="Digite Seu Nome">
+                <p>Idade: </p>
+                <input id="idade" class="login-input" placeholder="Digite Sua Idade">
+    
+                <button onclick="Registrar()">Entrar</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+</html>

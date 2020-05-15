@@ -1,0 +1,204 @@
+#botoes-container{
+    background-color: #19162B;
+
+    margin: 20px auto;
+
+    height: 80px;
+    width: 98%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#botoes-container button{
+    
+    width: 230px;
+    height: 50px;
+    margin: 10px;
+
+    font-size: 17px;
+}
+
+#pesquisar-container{
+    background-color: #19162B;
+
+    margin: 12px;
+
+    height: 80px;
+    width: 98%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#pesquisar-container img{  
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+}
+
+#pesquisar-container input{  
+    margin: 20px;
+
+    width: 90%;
+    background-color: #221F32;
+}
+
+.content-1{
+    background-color: #19162B;
+    margin: 20px auto;
+    padding: 20px;
+    width: 98%;
+}
+
+.content-1 #data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#data h3{
+    padding-left: 10px;
+    color: antiquewhite;
+}
+
+.content-1 select{
+    background-color: #221F32;
+    margin-right: 4px;
+    max-width: 300px;
+
+    min-width: 300px;
+}
+
+.content-container{
+    background-color: #19162B;
+
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+}
+
+.viagem-container{
+    padding: 25px 0;
+
+    background-color: #221F32;
+}
+
+.viagem-tituloedata {
+    padding: 0 35px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viagem-content-position{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 35px;
+    padding-bottom: 20px;
+
+}
+.online1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.viagem-container button{
+    width: 30%;
+    margin: 0;
+}
+
+.online1 h1{
+    color: blue;
+    padding-left: 20px;
+}
+.online1 h1:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.modal {
+    background: #221F32;
+    width: 40%;
+    height: 60%;
+    min-width: 300px;
+    padding: 40px;
+    position: relative;
+}
+.modal h3 {
+    color: white;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal {
+    animation: modal .3s;
+}
+
+.fechar {
+    position: absolute;
+    font-size: 1.2em;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: red;
+    color: white;
+    font-family: "PT Mono", monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.3);
+}
+
+.Container-mod {
+    background-color: #19162B;
+    margin-top: 25px;
+    width: 100%;
+    height: 90%;
+
+    overflow: scroll;
+    
+}
+
+.Container-mod p{
+    margin: 10px 5%;
+}
