@@ -8,7 +8,7 @@ var RegistroViagens = [];
 var quantMax;
 
 function Iniciar(){
-    axios.get('https://decarona-backend.herokuapp.com/vindex',
+    axios.get('https://localhost:3333/vindex',
     {
         headers: { data: sessionStorage.getItem("dataAt") }
     })
@@ -75,7 +75,7 @@ function IrParaProximoPasso(){
 
     var id1 = parseInt(event.currentTarget.id);
 
-    axios.post('https://decarona-backend.herokuapp.com/viagens/registo',
+    axios.post('https://localhost:3333/viagens/registo',
     {
         id_car: sessionStorage.getItem("caronista_id"),
         id: id1, 
@@ -116,7 +116,7 @@ function FecharPopUp(){
 }
 
 function ListarNomes(id){
-    axios.get('https://decarona-backend.herokuapp.com/viagens/listagem',
+    axios.get('https://localhost:3333/viagens/listagem',
     {
         headers: { id: id }
     })
@@ -183,7 +183,7 @@ function SetUpData(){
 function PesquisarPonto(){
     var nome = document.getElementById('pesquisar').value;
 
-    axios.get('http://decarona-backend.herokuapp.com/vindexpl', {
+    axios.get('http://localhost:3333/vindexpl', {
         headers: {nome , data: sessionStorage.getItem("dataAt")}     
         })
     .then(/*function (response) {

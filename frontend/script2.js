@@ -12,7 +12,7 @@ function VerificarSeEstaLogado(){
 function SetUpHeader(){
     var header = document.getElementById('header');
     
-    axios.get('https://decarona-backend.herokuapp.com/caronista', {
+    axios.get('https://localhost:3333/caronista', {
         headers: {id: sessionStorage.getItem("caronista_id")}     
         })
     .then(function (response) {

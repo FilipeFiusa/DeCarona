@@ -9,7 +9,7 @@ function Registrar(){
     var login = sessionStorage.getItem("login");
     var senha = sessionStorage.getItem("senha");
 
-    axios.post('https://decarona-backend.herokuapp.com/caronistas', {
+    axios.post('https://localhost:3333/caronistas', {
         login,
         senha,
         cpf,
