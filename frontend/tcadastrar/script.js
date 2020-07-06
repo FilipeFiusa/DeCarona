@@ -8,7 +8,7 @@ function CadastrarTransporte(){
 }
 
 function Cadastrar(placa, tipo, valor, capacidade){
-    axios.post('https://localhost:3333/transportes', {
+    axios.post('http://localhost:3333/transportes', {
         placa,
         tipo,
         valor,

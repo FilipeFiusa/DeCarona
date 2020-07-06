@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 function Iniciar(){
-    axios.get('https://localhost:3333/ptindex')
+    axios.get('http://localhost:3333/ptindex')
     .then(/*function (response) {
         console.log(response);
         viagens = response.data;
@@ -64,7 +64,7 @@ function CadastrarViagem(){
 }
 
 function Cadastrar(saida, local, saida, localsaida, data, retorno, localretorno, transporte){
-    axios.post('https://localhost:3333/viagens', {
+    axios.post('http://localhost:3333/viagens', {
         data,
         saida,
         localsaida,

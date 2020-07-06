@@ -3,7 +3,7 @@ function Entrar(){
     var login = document.getElementById('user').value;
     var senha = document.getElementById('pass').value;
 
-    axios.post('https://localhost:3333/login', {
+    axios.post('http://localhost:3333/login', {
         login,
         senha,
     })
